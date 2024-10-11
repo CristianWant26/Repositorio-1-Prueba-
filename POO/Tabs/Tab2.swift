@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Tab2.swift
 //  POO
 //
 //  Created by Cristian Gómez  on 09/10/24.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct Tab2 : View{
     
-    var body: some View {
+    var body: some View{
         
-        HomeView()
+        Text("Tab 2")
     }
 }
 #Preview{
-    ContentView()
+    Tab2()
 }

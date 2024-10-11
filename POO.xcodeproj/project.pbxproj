@@ -29,6 +29,23 @@
 		A3A3ADE92CB586CD00BD5DF8 /* POOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A3C0410A2CB6E1B900D63158 /* Exceptions for "POOUITests" folder in "POOTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				POOTests.swift,
+			);
+			target = A3A3ADDE2CB586CD00BD5DF8 /* POOTests */;
+		};
+		A3C0410B2CB6E1B900D63158 /* Exceptions for "POOUITests" folder in "POOUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				POOTests.swift,
+			);
+			target = A3A3ADE82CB586CD00BD5DF8 /* POOUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A3A3ADD12CB586CB00BD5DF8 /* POO */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		A3A3ADEC2CB586CD00BD5DF8 /* POOUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A3C0410A2CB6E1B900D63158 /* Exceptions for "POOUITests" folder in "POOTests" target */,
+				A3C0410B2CB6E1B900D63158 /* Exceptions for "POOUITests" folder in "POOUITests" target */,
+			);
 			path = POOUITests;
 			sourceTree = "<group>";
 		};
